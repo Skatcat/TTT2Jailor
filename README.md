@@ -16,8 +16,12 @@ and
     
 // DISCLAIMER: The Jailor's Baton is literally just an edited version of the Adminstick that can't do anything but do "ulx jail" and locks it to 30 seconds. This means that it DOESN'T WORK unless players have access to ulx commands. In short: If you play with 5 friends and make all players admins, that's cool. Obviously, this is not an option with public servers / strangers! If you still want to use the role, remove the baton from the Jailor's loadout by removing the respective hook in the baton code.
 
+Mind that you still need to add 'ulx jail' to the adminstick commands through the console (see the Adminstick workshop page).
+
 Required Addons: 
 
 https://steamcommunity.com/workshop/filedetails/?id=557962280 (you should have ULX anyway)
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1481200022
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=125628460
