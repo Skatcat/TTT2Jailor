@@ -60,6 +60,17 @@ if CLIENT then
 		LANG.AddToLanguage("Deutsch", "search_role_" .. JAILOR.abbr, "Diese Person war ein Wärter!")
 		LANG.AddToLanguage("Deutsch", "target_" .. JAILOR.name, "Wärter")
 		LANG.AddToLanguage("Deutsch", "ttt2_desc_" .. JAILOR.name, [[Der Wärter sperrt Leute ein!]])
+		
+		---------------------------------
+
+		LANG.AddToLanguage("English", JAILOR.name, "Тюремщик")
+		LANG.AddToLanguage("English", "info_popup_" .. JAILOR.name,
+			[[Вы тюремщик!
+				Запри их всех!]])
+		LANG.AddToLanguage("English", "body_found_" .. JAILOR.abbr, "Он был тюремщиком...")
+		LANG.AddToLanguage("English", "search_role_" .. JAILOR.abbr, "Этот человек был тюремщиком!")
+		LANG.AddToLanguage("English", "target_" .. JAILOR.name, "Тюремщик")
+		LANG.AddToLanguage("English", "ttt2_desc_" .. JAILOR.name, [[Тюремщик запирает людей]])
 	end)
 end
 
