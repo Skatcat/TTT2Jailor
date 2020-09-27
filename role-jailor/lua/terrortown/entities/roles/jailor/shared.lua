@@ -63,14 +63,14 @@ if CLIENT then
 		
 		---------------------------------
 
-		LANG.AddToLanguage("English", JAILOR.name, "Тюремщик")
-		LANG.AddToLanguage("English", "info_popup_" .. JAILOR.name,
+		LANG.AddToLanguage("Русский", JAILOR.name, "Тюремщик")
+		LANG.AddToLanguage("Русский", "info_popup_" .. JAILOR.name,
 			[[Вы тюремщик!
 				Запри их всех!]])
-		LANG.AddToLanguage("English", "body_found_" .. JAILOR.abbr, "Он был тюремщиком...")
-		LANG.AddToLanguage("English", "search_role_" .. JAILOR.abbr, "Этот человек был тюремщиком!")
-		LANG.AddToLanguage("English", "target_" .. JAILOR.name, "Тюремщик")
-		LANG.AddToLanguage("English", "ttt2_desc_" .. JAILOR.name, [[Тюремщик запирает людей]])
+		LANG.AddToLanguage("Русский", "body_found_" .. JAILOR.abbr, "Он был тюремщиком...")
+		LANG.AddToLanguage("Русский", "search_role_" .. JAILOR.abbr, "Этот человек был тюремщиком!")
+		LANG.AddToLanguage("Русский", "target_" .. JAILOR.name, "Тюремщик")
+		LANG.AddToLanguage("Русский", "ttt2_desc_" .. JAILOR.name, [[Тюремщик запирает людей]])
 	end)
 end
 
